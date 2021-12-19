@@ -1,6 +1,0 @@
-framework module Pods_splokhmatikovPW6 {
-  umbrella header "Pods-splokhmatikovPW6-umbrella.h"
-
-  export *
-  module * { export * }
-}

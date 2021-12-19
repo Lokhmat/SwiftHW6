@@ -57,7 +57,8 @@ class ViewController: UIViewController {
     
     @objc
     func logCarthage(){
-        MyLogger4.log("asdf")
+        //MyLogger4.log(1.1) It does not work (
+        print("through great effort?")
     }
     
 }
