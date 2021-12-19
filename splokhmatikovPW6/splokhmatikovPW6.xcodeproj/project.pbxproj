@@ -17,6 +17,8 @@
 		F66D2AC8276F98C2002D96FD /* MyLogger2 in Frameworks */ = {isa = PBXBuildFile; productRef = F66D2AC7276F98C2002D96FD /* MyLogger2 */; };
 		F6F90A9A276FA59E00D76E3B /* Pods_splokhmatikovPW6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D6D9ACED631856B0A5CC96 /* Pods_splokhmatikovPW6.framework */; };
 		F6F90A9B276FA59E00D76E3B /* Pods_splokhmatikovPW6.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B7D6D9ACED631856B0A5CC96 /* Pods_splokhmatikovPW6.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F6F90B1A276FCC7200D76E3B /* MyLogger4.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F90B0F276FCA8C00D76E3B /* MyLogger4.xcframework */; };
+		F6F90B1B276FCC7200D76E3B /* MyLogger4.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6F90B0F276FCA8C00D76E3B /* MyLogger4.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				F6F90B1B276FCC7200D76E3B /* MyLogger4.xcframework in Embed Frameworks */,
 				F66D2AC1276F9269002D96FD /* MyLogger1.framework in Embed Frameworks */,
 				F6F90A9B276FA59E00D76E3B /* Pods_splokhmatikovPW6.framework in Embed Frameworks */,
 			);
@@ -57,6 +60,8 @@
 		F66D2AA0276F6AE8002D96FD /* UIViewPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPin.swift; sourceTree = "<group>"; };
 		F66D2AB9276F9234002D96FD /* MyLogger1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MyLogger1.xcodeproj; path = ../MyLogger1/MyLogger1.xcodeproj; sourceTree = "<group>"; };
 		F66D2AC4276F984F002D96FD /* MyLogger2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyLogger2; path = ../MyLogger2; sourceTree = "<group>"; };
+		F6F90B0F276FCA8C00D76E3B /* MyLogger4.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MyLogger4.xcframework; path = Carthage/Build/MyLogger4.xcframework; sourceTree = "<group>"; };
+		F6F90B15276FCB8000D76E3B /* Build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Build; path = Carthage/Build; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,7 @@
 			files = (
 				F6F90A9A276FA59E00D76E3B /* Pods_splokhmatikovPW6.framework in Frameworks */,
 				F66D2AC0276F9269002D96FD /* MyLogger1.framework in Frameworks */,
+				F6F90B1A276FCC7200D76E3B /* MyLogger4.xcframework in Frameworks */,
 				F66D2AC8276F98C2002D96FD /* MyLogger2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +132,8 @@
 		F66D2ABF276F9269002D96FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F6F90B15276FCB8000D76E3B /* Build */,
+				F6F90B0F276FCA8C00D76E3B /* MyLogger4.xcframework */,
 				B7D6D9ACED631856B0A5CC96 /* Pods_splokhmatikovPW6.framework */,
 			);
 			name = Frameworks;

@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6F90B05276FB96300D76E3B /* MyLogger4.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F90B03276FB96300D76E3B /* MyLogger4.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6F90B0C276FB96D00D76E3B /* MyLogger4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F90B0B276FB96D00D76E3B /* MyLogger4.swift */; };
+		F6F90B2B276FCCA000D76E3B /* MyLogger4.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F90B29276FCCA000D76E3B /* MyLogger4.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6F90B32276FCCAE00D76E3B /* MyLogger4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F90B31276FCCAE00D76E3B /* MyLogger4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F6F90B00276FB96300D76E3B /* MyLogger4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyLogger4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6F90B03276FB96300D76E3B /* MyLogger4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLogger4.h; sourceTree = "<group>"; };
-		F6F90B04276FB96300D76E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6F90B0B276FB96D00D76E3B /* MyLogger4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLogger4.swift; sourceTree = "<group>"; };
+		F6F90B26276FCCA000D76E3B /* MyLogger4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyLogger4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F90B29276FCCA000D76E3B /* MyLogger4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLogger4.h; sourceTree = "<group>"; };
+		F6F90B2A276FCCA000D76E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F90B31276FCCAE00D76E3B /* MyLogger4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyLogger4.swift; path = ../../../../MyLogger4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F6F90AFD276FB96300D76E3B /* Frameworks */ = {
+		F6F90B23276FCCA000D76E3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,28 +29,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F6F90AF6276FB96300D76E3B = {
+		F6F90B1C276FCCA000D76E3B = {
 			isa = PBXGroup;
 			children = (
-				F6F90B02276FB96300D76E3B /* MyLogger4 */,
-				F6F90B01276FB96300D76E3B /* Products */,
+				F6F90B28276FCCA000D76E3B /* MyLogger4 */,
+				F6F90B27276FCCA000D76E3B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F6F90B01276FB96300D76E3B /* Products */ = {
+		F6F90B27276FCCA000D76E3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6F90B00276FB96300D76E3B /* MyLogger4.framework */,
+				F6F90B26276FCCA000D76E3B /* MyLogger4.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F6F90B02276FB96300D76E3B /* MyLogger4 */ = {
+		F6F90B28276FCCA000D76E3B /* MyLogger4 */ = {
 			isa = PBXGroup;
 			children = (
-				F6F90B03276FB96300D76E3B /* MyLogger4.h */,
-				F6F90B04276FB96300D76E3B /* Info.plist */,
-				F6F90B0B276FB96D00D76E3B /* MyLogger4.swift */,
+				F6F90B31276FCCAE00D76E3B /* MyLogger4.swift */,
+				F6F90B29276FCCA000D76E3B /* MyLogger4.h */,
+				F6F90B2A276FCCA000D76E3B /* Info.plist */,
 			);
 			path = MyLogger4;
 			sourceTree = "<group>";
@@ -58,25 +58,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F6F90AFB276FB96300D76E3B /* Headers */ = {
+		F6F90B21276FCCA000D76E3B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6F90B05276FB96300D76E3B /* MyLogger4.h in Headers */,
+				F6F90B2B276FCCA000D76E3B /* MyLogger4.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F6F90AFF276FB96300D76E3B /* MyLogger4 */ = {
+		F6F90B25276FCCA000D76E3B /* MyLogger4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6F90B08276FB96300D76E3B /* Build configuration list for PBXNativeTarget "MyLogger4" */;
+			buildConfigurationList = F6F90B2E276FCCA000D76E3B /* Build configuration list for PBXNativeTarget "MyLogger4" */;
 			buildPhases = (
-				F6F90AFB276FB96300D76E3B /* Headers */,
-				F6F90AFC276FB96300D76E3B /* Sources */,
-				F6F90AFD276FB96300D76E3B /* Frameworks */,
-				F6F90AFE276FB96300D76E3B /* Resources */,
+				F6F90B21276FCCA000D76E3B /* Headers */,
+				F6F90B22276FCCA000D76E3B /* Sources */,
+				F6F90B23276FCCA000D76E3B /* Frameworks */,
+				F6F90B24276FCCA000D76E3B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,24 +84,24 @@
 			);
 			name = MyLogger4;
 			productName = MyLogger4;
-			productReference = F6F90B00276FB96300D76E3B /* MyLogger4.framework */;
+			productReference = F6F90B26276FCCA000D76E3B /* MyLogger4.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F6F90AF7276FB96300D76E3B /* Project object */ = {
+		F6F90B1D276FCCA000D76E3B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					F6F90AFF276FB96300D76E3B = {
+					F6F90B25276FCCA000D76E3B = {
 						CreatedOnToolsVersion = 12.5.1;
 						LastSwiftMigration = 1250;
 					};
 				};
 			};
-			buildConfigurationList = F6F90AFA276FB96300D76E3B /* Build configuration list for PBXProject "MyLogger4" */;
+			buildConfigurationList = F6F90B20276FCCA000D76E3B /* Build configuration list for PBXProject "MyLogger4" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,18 +109,18 @@
 				en,
 				Base,
 			);
-			mainGroup = F6F90AF6276FB96300D76E3B;
-			productRefGroup = F6F90B01276FB96300D76E3B /* Products */;
+			mainGroup = F6F90B1C276FCCA000D76E3B;
+			productRefGroup = F6F90B27276FCCA000D76E3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6F90AFF276FB96300D76E3B /* MyLogger4 */,
+				F6F90B25276FCCA000D76E3B /* MyLogger4 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F6F90AFE276FB96300D76E3B /* Resources */ = {
+		F6F90B24276FCCA000D76E3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,18 +130,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F6F90AFC276FB96300D76E3B /* Sources */ = {
+		F6F90B22276FCCA000D76E3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6F90B0C276FB96D00D76E3B /* MyLogger4.swift in Sources */,
+				F6F90B32276FCCAE00D76E3B /* MyLogger4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F6F90B06276FB96300D76E3B /* Debug */ = {
+		F6F90B2C276FCCA000D76E3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		F6F90B07276FB96300D76E3B /* Release */ = {
+		F6F90B2D276FCCA000D76E3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +263,7 @@
 			};
 			name = Release;
 		};
-		F6F90B09276FB96300D76E3B /* Debug */ = {
+		F6F90B2F276FCCA000D76E3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -289,7 +289,7 @@
 			};
 			name = Debug;
 		};
-		F6F90B0A276FB96300D76E3B /* Release */ = {
+		F6F90B30276FCCA000D76E3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -317,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F6F90AFA276FB96300D76E3B /* Build configuration list for PBXProject "MyLogger4" */ = {
+		F6F90B20276FCCA000D76E3B /* Build configuration list for PBXProject "MyLogger4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6F90B06276FB96300D76E3B /* Debug */,
-				F6F90B07276FB96300D76E3B /* Release */,
+				F6F90B2C276FCCA000D76E3B /* Debug */,
+				F6F90B2D276FCCA000D76E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6F90B08276FB96300D76E3B /* Build configuration list for PBXNativeTarget "MyLogger4" */ = {
+		F6F90B2E276FCCA000D76E3B /* Build configuration list for PBXNativeTarget "MyLogger4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6F90B09276FB96300D76E3B /* Debug */,
-				F6F90B0A276FB96300D76E3B /* Release */,
+				F6F90B2F276FCCA000D76E3B /* Debug */,
+				F6F90B30276FCCA000D76E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F6F90AF7276FB96300D76E3B /* Project object */;
+	rootObject = F6F90B1D276FCCA000D76E3B /* Project object */;
 }

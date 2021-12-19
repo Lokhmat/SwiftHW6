@@ -9,7 +9,7 @@ import UIKit
 import MyLogger1
 import MyLogger2
 import MyLogger3
-//import MyLogger4
+import MyLogger4
 
 class ViewController: UIViewController {
 
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
     
     @objc
     func logCarthage(){
-        print("through great effort?")
+        MyLogger4.log("asdf")
     }
     
 }
